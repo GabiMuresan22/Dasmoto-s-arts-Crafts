@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  margin: 20px 10px;
+}
+
+header {
+  background-image: url("./img/pattern.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+.main-heading {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+.second-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.brushes .second-heading {
+  background-color: mediumaquamarine;
+  margin: 20px 0;
+}
+
+.small-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.text-info {
+  font-size: 14px;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
+
+.frames .second-heading {
+  background-color: lightcoral;
+  margin: 20px 0;
+}
+
+.paint .second-heading {
+  background-color: skyblue;
+  margin: 20px 0;
+}
